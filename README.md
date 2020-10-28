@@ -1,6 +1,7 @@
 
 
 <h1 style="text-align:center">Person Clasification In Artwork Challenge</h1>
+
 <img style="display: block; margin: auto;" alt="photo"  width="400" src="./images/PersonClassification.png">
 ## Goal of the challenge 
 Artworks such as paintings give us important clues about how people were perceived over centuries in the Western culture, for instance. Building a system that allows scholars to automatically find people in large database of paintings can help art historians and historians to analyse and study how the human representation changed over time (clothes, objects depicted etc.). 
