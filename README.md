@@ -69,9 +69,9 @@ We will use a data-set of 10.000 RGB images of artworks. Data has already been r
 loss |     0.0045 | 2.1274| 0.069 |  0.720
 accuracy | 0.9994  |0.6893 | 0.981 | 0.717
 
-		-> We can notice that the result improved by using the batch normalization and dropout layer, yet we still suffer from the overfitting, which is a very common phenomena when it comes to neural networks, because they tend to overfit the data, especially if poorly trained (small dataset), such a model which solves complex problem need a whole lot of data, and getting vast amounts of labeled data for supervised models can be really difficult, considering the time and effort it takes to label data.
+-> We can notice that the result improved by using the batch normalization and dropout layer, yet we still suffer from the overfitting, which is a very common phenomena when it comes to neural networks, because they tend to overfit the data, especially if poorly trained (small dataset), such a model which solves complex problem need a whole lot of data, and getting vast amounts of labeled data for supervised models can be really difficult, considering the time and effort it takes to label data.
 
-		-> Thus, the key motivation, to use, transfer learning in order to make better results 
+-> Thus, the key motivation, to use, transfer learning in order to make better results 
 
 - Classification Using INCEPTION pretrained model :
 
@@ -84,9 +84,9 @@ accuracy | 0.9994  |0.6893 | 0.981 | 0.717
 loss |    0.0909 | 0.6521| 0.0989 |   0.4210|0.0219|0.3277  
 accuracy | 0.9710   |0.9107  |0.9750 | 0.9214|0.9923 |0.9427
 
-			-> As expected the dropout helped with the overfitting, we decreased the val_loss from 0.6 to 0.4  also the accuracy increased from 91% to 92.2%.
+-> As expected the dropout helped with the overfitting, we decreased the val_loss from 0.6 to 0.4  also the accuracy increased from 91% to 92.2%.
 			
-			-> Another clue about reducing the overfitting is that the rate on which the training loss decrease compared to the rate of the validation loss decrease is much slower, which mean we don't overfit very fast, thus we give time for the model to learn and generalize more. 
+-> Another clue about reducing the overfitting is that the rate on which the training loss decrease compared to the rate of the validation loss decrease is much slower, which mean we don't overfit very fast, thus we give time for the model to learn and generalize more. 
 
-			-> Using more suitable learning rate keeps us on from diverging to a sub optimal set of weights. and thus increase the performance of our model.
+-> Using more suitable learning rate keeps us on from diverging to a sub optimal set of weights. and thus increase the performance of our model.
 
